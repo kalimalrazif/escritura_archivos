@@ -1,0 +1,29 @@
+[Anjuta]
+Geometry=1918x1059+0+0
+
+[File Loader]
+Files=../../../../Proyectos/datos.h.csv#7%%%../../src/datos.h#11%%%../../src/main.c#32%%%../../src/ejemplo1.c#38%%%../../src/ejemplo2.c#44%%%../../src/ejemplo3.c#20%%%../../src/ejemplo5.c#34%%%../../src/ejemplo6.c#29%%%../../src/ejemplo7.c#35%%%../../src/ejemplo8.c#33
+
+[Document Manager]
+bookmarks=<?xml version="1.0" encoding="UTF-8"?>\n<bookmarks/>\n
+
+[Execution]
+Program uri=../../Debug/src/ejemplo8%%%../../Debug/src/ejemplo7%%%../../Debug/src/ejemplo6%%%../../Debug/src/ejemplo5%%%../../Debug/src/ejemplo4%%%../../Debug/src/Ejemplo2%%%../../Debug/src/ejemplo1%%%../../Debug/src/escritura_archivos
+Run in terminal=2
+Working directories=../../.
+
+[Project Manager]
+Shortcut=escritura_archivos//src//escritura_archivos%%%escritura_archivos//src//ejemplo1%%%escritura_archivos//src//Ejemplo2%%%escritura_archivos//src//ejemplo3%%%escritura_archivos//src//ejemplo4%%%escritura_archivos//src//ejemplo5%%%escritura_archivos//src//ejemplo6%%%escritura_archivos//src//ejemplo7%%%escritura_archivos//src//ejemplo8
+Expand=escritura_archivos%%%escritura_archivos//src
+
+[Debugger]
+Breakpoint=1:../../src/ejemplo8.c:33:0:
+Stop at beginning=2
+
+[Build]
+Configuration list=1:Default:%%%1:Debug:Debug%%%1:Profiling:Profiling%%%1:Optimized:Optimized%%%1:MinGW32:MinGW32
+Selected Configuration=Debug
+BuildArgs/Default=--enable-maintainer-mode
+BuildArgs/Debug=--enable-maintainer-mode 'CFLAGS=-g -O0' 'CXXFLAGS=-g -O0' 'JFLAGS=-g -O0' 'FFLAGS=-g -O0'
+BuildArgs/Profiling=--enable-maintainer-mode 'CFLAGS=-g -pg' 'CXXFLAGS=-g -pg' 'JFLAGS=-g -pg' 'FFLAGS=-g -pg'
+BuildArgs/Optimized=--enable-maintainer-mode 'CFLAGS=-O2' 'CXXFLAGS=-O2' 'JFLAGS=-O2' 'FFLAGS=-O2'
